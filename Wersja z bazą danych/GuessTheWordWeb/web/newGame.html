@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Guess the word</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <h1>New Game</h1>
+        The game is designed for two players :<br>
+        First player - enter word.<br>
+        Second player - select level of game and tray to guess entered word.
+        <form action="Game" method="GET">
+            <br>First player :<br>
+            <label>Enter word <input type="password" name=guessesWord></label>
+            <br><br>Second player : <br>
+            Select level:<br>
+            <input type="radio" name="level" value="EASY"> Easy<br>
+            <input type="radio" name="level" value="NORMAL" checked> Normal<br>
+            <input type="radio" name="level" value="HARD"> Hard<br><br>
+            <button type="submit" name="action" value="newGame">OK</button>
+            <button type="button" onclick="location.href='javascript:history.go(-1)';">Back</button>
+        </form>
+        
+        
+    </body>
+</html>

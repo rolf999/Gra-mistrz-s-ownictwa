@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-01-20, 12:36:19
+    Author     : Rafal Grzelec
+    Version    : 1.0
+*/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    color: blue;
+}
+
+#newGame {
+    width: 100%;
+    background-color: #499afa;
+}
+
+#history {
+    
+    width: 100%;
+    background-color: #499afa;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+#position {
+    width: 40%;
+}
+
+#word{
+    width: 40%;
+}
+
+.button{
+    width: 60px;
+}
+
+.option{
+    
+    float: left;
+    width: 30%;
+}
+
+.menu{
+    float: left;
+    width: 70%;
+}
